@@ -12,7 +12,7 @@ Here are swap routers on lending platforms.
 * 1inchSwap - 0x1111111254fb6c44bAC0beD2854e76F90643097ds
 * Paraswap - 0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57
 * Pmmswap(old version of zeroEx) - 0x3F93C3D9304a70c9104642AB8cD37b1E2a7c203A
-* ZeroEx - 0xDef1C0ded9bec7F1a1670819833240f027b25EfF
+* ZeroEx - 0xDef1C0ded9bec7F1a1670819833240f027b25EfF.
 MadwalletApp selects one platform of them. It depends on the highest price on swapping.
 
 ### 2. Parse Data & Swap
