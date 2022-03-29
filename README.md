@@ -7,13 +7,13 @@ FeeSmartContract
 ### 1. Provided Swap Data
 Gets Swap Data from Madwallet Swap Backend - https://stake.xend.tools/networks/56/trades?destinationToken=&sourceToken=&sourceAmount=&slippage=&timeout=&walletAddress=
 Madwallet Swap Backend provides datas for swapping from 5 lending platforms.
+MadwalletApp selects one platform of them. It depends on the highest price on swapping.
 Here are swap routers on lending platforms.
 * AirSwap - 0xc98314a5077DBa8F12991B29bcE39F834E82e197
 * 1inchSwap - 0x1111111254fb6c44bAC0beD2854e76F90643097ds
 * Paraswap - 0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57
 * Pmmswap(old version of zeroEx) - 0x3F93C3D9304a70c9104642AB8cD37b1E2a7c203A
 * ZeroEx - 0xDef1C0ded9bec7F1a1670819833240f027b25EfF.
-MadwalletApp selects one platform of them. It depends on the highest price on swapping.
 
 ### 2. Parse Data & Swap
 * Madwallet app provides Swap Data with bytes data type.
